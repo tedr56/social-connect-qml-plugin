@@ -1,0 +1,32 @@
+Directories
+
+    doc/
+        Contains documentation on the project in general.
+
+    examples/
+        Contains a set of example applications that utilize the SocialConnect module.
+
+    plugin/
+        Contains the SocialConnect QML module.
+
+    tests/
+        Contains a set of tests that are used for testing/debugging the implementation.
+
+Building
+
+    To build the SocialConnect module, change to the "plugin" directory and command
+
+        qmake && make && make install
+
+    This compiles the module and installs it to plugin/install. After this you can use the
+    module in your QML application by doing "import SocialConnect 1.0". Notice that you must
+    have the plugin/install directory in your QML module import path. For further usage
+    description see examples/smoke/ .
+
+Documentation
+
+    To generate the documentation, change to the "doc" directory and command
+
+        qdoc socialconnect.qdocconf
+
+    This generates the documentation in HTML format in a directory called "html".

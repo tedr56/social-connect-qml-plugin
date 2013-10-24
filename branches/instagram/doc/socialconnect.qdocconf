@@ -1,0 +1,11 @@
+outputformats = HTML
+outputdir     = html
+
+headerdirs  = ../plugin
+sourcedirs  = ../plugin
+#exampledirs = ../examples
+
+headers.fileextensions = "*.h *.ch *.h++ *.hh *.hpp *.hxx"
+sources.fileextensions = "*.cpp *.qml *.qdoc *.js"
+#examples.fileextensions = "*.cpp *.h *.js *.xq *.xml *.ui *.qhp *.qhcp *.qml"
+#examples.imageextensions = "*.png *.jpeg *.jpg *.gif *.mng *.svg"

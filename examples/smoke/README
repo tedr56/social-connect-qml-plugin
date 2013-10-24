@@ -1,0 +1,5 @@
+# make sure you have built and installed the plugin in ../../,
+# then run with qmlviewer with plugin location in import path:
+qmlviewer -I ../../install smoke.qml
+
+# the interesting stuff is printed to console.debug()
