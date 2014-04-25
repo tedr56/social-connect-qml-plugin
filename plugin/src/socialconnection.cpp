@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2012 Nokia Corporation.
+ * Copyright (c) 2012-2014 Microsoft Mobile.
  */
 
 #define QT_NO_DEBUG_OUTPUT
